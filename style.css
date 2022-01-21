@@ -1,0 +1,86 @@
+main {
+	margin: 2em 0 2em 0;
+}
+
+section {
+	margin: 1em 0 1em 0;
+}
+
+aside {
+	margin: 1em 0 1em 0;
+}
+
+aside h3 {
+	text-align: center;
+	margin:0.51em 0;
+}
+
+body {
+	padding-bottom: 50px;
+}
+
+footer {
+	color: lightgrey;
+}
+
+footer a {
+	color: lightgrey;
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: lightgrey;
+	text-decoration: underline;
+}
+
+.modal-backdrop.show {
+	opacity: 0.87 !important;
+}
+
+form {
+	width: 100%;
+}
+
+.flex {
+	display: block;
+}
+
+.btn.btn-lg {
+	width: 100%;
+	margin: 2% 0;
+	border-radius: .3rem !important;
+}
+
+.justify-space-between {
+	justify-content: space-between;
+}
+
+.btn-success {
+	width: 100%;
+	margin: 3% auto;
+}
+
+.btn {
+	font-size: 20px;
+}
+
+@media only screen and (min-width: 790px) {
+ .flex {
+	 display: flex;
+	 flex-flow: wrap;
+ }
+ .btn.btn-lg {
+	width: 48%;
+	display: block;
+	margin-right: 2%;
+ }
+ .btn-success {
+	width: 40%;
+ }
+}
+
+@media only screen and (min-width: 1200px) {
+	.btn.btn-lg {
+		width: 23%;
+	}
+}
